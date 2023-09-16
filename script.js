@@ -87,4 +87,40 @@ li_five.addEventListener("click",function(){
     }
 })
 
+gsap.from(".left h1, button ,.Box ", { 
+    x: -1000,
+    stagger:.2,
+    duration:1,
+     fill: 'blue', });
+
+gsap.from(".right img", { 
+    y: -1000,
+    duration:1,
+     fill: 'blue', });
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

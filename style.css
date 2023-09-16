@@ -136,7 +136,7 @@
     border: .2vmax solid #CDC6BE;
     position: absolute;
     left: 35%;
-    top: 80%;
+    top: 70%;
     z-index: 11;
     display: flex;
     align-items: center;
@@ -170,8 +170,8 @@
   }
   .right img{
     width: 88%;
-    height: 90%;
-    margin-top: 3%;
+    height: 85%;
+    margin-top: 15%;
   }
   
   .page2{
@@ -1292,7 +1292,7 @@ nav h1 i{
 
 .left{
   width: 100%;
-  height: 40%;
+  height: 45%;
    margin-top: 5%;  
    border: .2vmax solid #1d1d1b67;
 }
@@ -1358,7 +1358,7 @@ nav h1 i{
 
 .bottom{
   width: 100%;
-  height: 50%;
+  height: 55%;
   border:.2vmax solid #1d1d1b67 ;
   margin-top: 5%;
 
@@ -1406,7 +1406,7 @@ nav h1 i{
 
 .p3left{
   width: 96%;
-  height: 30%;
+  height: 35%;
 margin-left: 1vmax;
   border: .2vmax solid #1d1d1b67;
 
@@ -1419,7 +1419,7 @@ margin-left: 1vmax;
 
 .p3right{
   width: 96%;
-  height: 60%;
+  height: 55%;
   margin-left: 2%;
   margin-top: -2%;
   padding-left: 5%;
@@ -1429,7 +1429,7 @@ margin-left: 1vmax;
 
 .page4{
   width: 100%;
-  height: 55%;
+  height: 50%;
   background-color: #CDC6BE;
 }
 
@@ -1442,9 +1442,10 @@ margin-left: 1vmax;
 }
 .p4bottom{
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin-top: 5%;
-  display: flex;
+  display: -webkit-inline-box;
+  overflow-x: auto;
   gap: 2vmax;
   justify-content: space-around;
 
@@ -1452,8 +1453,8 @@ margin-left: 1vmax;
 .p41{
   text-align: center;
   font-size: 2vmax;
-  width: 20%;
-  height: 80%;
+  width: 45%;
+  height: 60%;
 
 }
 
@@ -1468,8 +1469,8 @@ margin-left: 1vmax;
 .p42{
   text-align: center;
   font-size: 2vmax;
-  width: 20%;
-  height: 80%;
+  width: 45%;
+  height: 60%;
  
 }
 
@@ -1483,8 +1484,8 @@ margin-left: 1vmax;
 .p43{
   text-align: center;
   font-size: 2vmax;
-  width: 20%;
-  height: 80%;
+  width: 45%;
+  height: 60%;
 
 
 }
@@ -1498,8 +1499,8 @@ margin-left: 1vmax;
 .p44{
   text-align: center;
   font-size: 2vmax;
-  width: 20%;
-  height: 80%;
+  width: 45%;
+  height: 60%;
  
 
 }
@@ -1543,7 +1544,7 @@ margin-left: 1vmax;
 .p5r2{
   width: 30%;
   height: 20%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: -2%;
 }
 .p5r2 img{
@@ -1578,6 +1579,12 @@ margin-left: 1vmax;
   height:100%;
   margin-left: 4%;
 }
+.p6b2{
+  width: 95%;
+}
+.p6b1{
+  width: 95%;
+}
 
 
 .page7{
@@ -1606,6 +1613,8 @@ margin-left: 1vmax;
   width: 100%;
   height: 45%;
  margin-top: 30%;
+ display: -webkit-inline-box;
+ overflow-x: auto;
   
 }
 
@@ -1620,15 +1629,18 @@ margin-left: 1vmax;
   font-size: 1.5vmax;
 
 }
+.p71{
+  width: 40%;
+}
 .p72{
-
+  width: 40%;
   font-size: 1.5vmax;
   
 
 
 }
 .p73{
-  width: 33%;
+  width: 40%;
   height: 100%;
   border: .2vmax solid #1d1d1b67;
   font-family: Arial, Helvetica, sans-serif;
