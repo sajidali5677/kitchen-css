@@ -119,7 +119,7 @@ gsap.from(".right img", {
           scroller:"body",
           scrub:true,
           stagger:1.1,
-        //   smooth:5,
+        
           
           
           
@@ -136,31 +136,106 @@ gsap.from(".right img", {
           markers:false,
           scroller:"body",
           scrub:true,
-        //   smooth:5,
+        
           
           
           
         }
       });
+
+
      gsap.from(".b1 img ,.b2 img, .b3 img ",{
           
           rotate:10, 
           opacity:-1,
           stagger:.1,
           scrollTrigger:{
-          trigger: ".bbottom",
+          trigger: ".b1",
           start:"top 70%",
           end:"top 40%",
-          markers:true,
+          markers:false,
           scroller:"body",
           scrub:true,
           
-        //   smooth:5,
+      
           
           
           
         }
       });
+
+
+     gsap.from(".rt1 img ,.rt2 img",{
+          
+          scale:-1, 
+          opacity:-1,
+          stagger:.1,
+          scrollTrigger:{
+          trigger: ".rtop",
+          start:"top 70%",
+          end:"top 40%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+
+          
+        }
+      });
+     gsap.from(" .rb1 img, .rb2 img ",{
+          
+          scale:-1, 
+          opacity:-1,
+          stagger:.1,
+          scrollTrigger:{
+          trigger: ".rbottom",
+          start:"top 70%",
+          end:"top 40%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+
+          
+        }
+      });
+
+
+     gsap.from(" .p41, .p42 ,.p43, .p44 ",{
+          
+          y:-100, 
+          opacity:-1,
+          stagger:.6,
+          scrollTrigger:{
+          trigger: ".p4bottom",
+          start:"top 70%",
+          end:"top 40%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+
+          
+        }
+      });
+
+
+
+     gsap.from(" .p71 h1 ",{
+          
+          scale:-1, 
+          opacity:-1,
+          scrollTrigger:{
+          trigger: ".p7top span h4",
+          start:"top 50%",
+          end:"top 40%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+
+          
+        }
+      });
+
+
+  
 
 
       
