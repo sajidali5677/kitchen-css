@@ -87,17 +87,84 @@ li_five.addEventListener("click",function(){
     }
 })
 
-gsap.from(".left h1, button ,.Box ", { 
+gsap.from(".left h1,.left button ,.Box ", { 
     x: -1000,
     stagger:.2,
     duration:1,
      fill: 'blue', });
 
+
+
+
 gsap.from(".right img", { 
     y: -1000,
     duration:1,
      fill: 'blue', });
+
      
+
+
+  
+    
+
+     gsap.from(".topleft img",{
+          
+        scale:0,
+          opacity:-1,
+          scrollTrigger:{
+          trigger: ".top",
+          start:"top 70%",
+          end:"top 50%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+          stagger:1.1,
+        //   smooth:5,
+          
+          
+          
+        }
+      });
+     gsap.from(".topright img",{
+          
+          scale:0,
+          opacity:-1,
+          scrollTrigger:{
+          trigger: ".topright",
+          start:"top 70%",
+          end:"top 50%",
+          markers:false,
+          scroller:"body",
+          scrub:true,
+        //   smooth:5,
+          
+          
+          
+        }
+      });
+     gsap.from(".b1 img ,.b2 img, .b3 img ",{
+          
+          rotate:10, 
+          opacity:-1,
+          stagger:.1,
+          scrollTrigger:{
+          trigger: ".bbottom",
+          start:"top 70%",
+          end:"top 40%",
+          markers:true,
+          scroller:"body",
+          scrub:true,
+          
+        //   smooth:5,
+          
+          
+          
+        }
+      });
+
+
+      
+
 
 
 
